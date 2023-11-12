@@ -12,7 +12,7 @@
 
 .header__menu {
     align-self: center;
-    min-width: 390px;
+    
 }
 
 .header__links-list {
@@ -51,7 +51,7 @@
     align-self: center;
     font-style: normal;
     font-size: 18px;
-    width: 240px;
+    max-width: 240px;
     line-height: 24.3px;
 }
 
@@ -62,7 +62,8 @@
 
 
 .address__text {
-    width: 240px;
+    max-width: 240px;
+    width: 100%;
 }
 
 .main-gap {
@@ -237,7 +238,7 @@
     color: #000;
     font-size: 20px;
     font-weight: 400;
-    padding-left: 40px;
+    margin-left: 40px;
 }
 
 .about {
